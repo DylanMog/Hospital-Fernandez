@@ -1,0 +1,435 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Hospital Fernández</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<link rel="stylesheet" type="text/css" href="hoja.css">
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,600,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+
+<!-- INICIO !-->
+
+<div data-role="page" id="inicio">
+
+  <header data-role="header">
+    <div class="logo-header">
+      <div id="img-logo"></div>
+      <p>Hospital Fern&aacute;ndez</p>
+    </div>
+  </header>
+  
+  <section id="call-emergency">
+    <div id="call-container">
+      <div id="img-call"></div>
+      <a href="#" class="ui-btn">Realizar llamada de emergencia</a> </div>
+  </section>
+  
+  <section id="menu-hospital">
+    <div data-role="navbar" data-grid="c"> <!-- Navbar elemento de JQuery Mobile !-->
+      <ul>
+        <li><a href="#" id="turnos" data-icon="custom" >Turnos</a></li>
+        <li class="btn-der"><a href="#doctores" id="doctores" data-icon="custom" data-transition="flow">Doctores
+          </a></li>
+        <li ><a href="#" id="como-llegar" data-icon="custom" >Como llegar</a></li>
+        <li class="btn-der"><a href="#" id="ubicarse" data-icon="custom">Ubicarse</a></li>
+      </ul>
+    </div>
+  </section>
+  
+</div>
+
+
+<!-- INICIO !-->
+
+
+<!-- DOCTORES !-->
+
+<div id="doctores" data-role="page" >
+
+  <header data-role="header" class="center-text">
+     <a href="#inicio" id="inicio-btn" data-transition="flow">< Inicio</a>
+    <p>Doctores</p>
+  </header>
+  
+  <div>
+    <input type="search">
+  </div>
+  
+  
+  <div id="lista-doctores">
+  <ul>
+    <li class="title-doctors">
+      <h1>Pediatr&iacute;a</h1>
+    </li>
+    <li> <a href="#jose-h-rodriguez" id="joserodriguez" data-transition="flow"> <img src="imgs/pics/rodriguez.jpg" alt="Dr. H. Rodriguez">
+      <p>Dr. Jos&eacute; H. <span>Rodriguez</span></p>
+      </a> </li>
+    <li> <a href="#juan-romero" id="juanromero" data-transition="flow"> <img src="imgs/pics/romero.jpg" alt="Dr. Juan Romero">
+      <p>Dr. Juan <span>Romero</span></p>
+      </a> </li>
+    <li> <a href="#alcira-muniz" id="alciramuniz" data-transition="flow"> <img src="imgs/pics/muniz.jpg" alt="Dr. Alcira Muñiz">
+      <p>Dra. Alcira <span>Mu&ntilde;iz</span></p>
+      </a> </li>
+    <li> <a href="#carlos-guiterrez" id="carlosguiterrez" data-transition="flow"> <img src="imgs/pics/guiterrez.jpg" alt="Dr. Carlos Guiterrez">
+      <p>Dr. Carlos <span>Guiterrez</span></p>
+      </a> </li>
+    <li class="title-doctors">
+      <h1 >Dermatolog&iacute;a</h1>
+    </li>
+    <li> <a href="#maria-lopez" id="marialopez" data-transition="flow"> <img src="imgs/pics/Lopez.jpg" alt="Dra. Maria Lopez">
+      <p>Dra. Maria <span>L&oacute;pez</span></p>
+      </a> </li>
+    <li> <a href="#alejandro-capdevila" id="alejandrocapdevila" data-transition="flow"> <img src="imgs/pics/capdevilla.jpg" alt="Dr. Alejandro Capdevila">
+      <p>Dr. Alejandro <span>Capdevila</span></p>
+      </a> </li>
+    <li> <a href="#jorge-ortiz" id="jorgeortiz" data-transition="flow"> <img src="imgs/pics/Ortiz.jpg" alt="Dr. Jorge Ortiz">
+      <p>Dr. Jorge <span>Ortiz</span></p>
+      </a> </li>
+    <li> <a href="#gustavo-falco" id="gustavofalco" data-transition="flow"> <img src="imgs/pics/falco.jpg" alt="Dr. Gustavo Falco">
+      <p>Dr. Gustavo <span>Falco</span></p>
+      </a> </li>
+  </ul>
+  </div>
+  
+</div>
+
+<!-- PERFIL: Jose H Rodriguez !-->
+
+<div id="jose-h-rodriguez" data-role="page" >
+
+  <header data-role="header" class="center-text"> 
+    <a href="#doctores" id="doctores-btn" data-transition="flow">< Doctores</a>
+    <p>Perfil</p>
+  </header>
+  
+  <div class="perfil-doctor"> 
+    <img src="imgs/pics/rodriguez.jpg" alt="Dr. H. Rodriguez">
+    <h1>Pediatra</h1>
+    <h2>Dr. Jos&eacute; H. <span>Rodriguez</span></h2>
+    <div class="bar-msg">
+      <div class="btn-msg"></div>
+    </div>
+  </div>
+  
+  <div class="lista-horarios">
+    <ul>
+      <li>
+        <h2 class="dia">Lunes</h2>
+        <p class="horario">09:30 AM</p>
+        <p class="consultorio">Consultorio 44</p>
+      </li>
+      <li>
+        <h2 class="dia">Martes</h2>
+        <p class="horario">09:30 AM</p>
+        <p class="consultorio">Consultorio 44</p>
+      </li>
+      <li>
+        <h2 class="dia">Miercoles</h2>
+        <p class="horario">10:30 AM</p>
+        <p class="consultorio">Consultorio 40</p>
+      </li>
+    </ul>
+  </div>
+  
+</div>
+
+
+<!-- PERFIL: Jose H Rodriguez !-->
+
+
+<!-- PERFIL: Juan Romero !-->
+
+<div id="juan-romero" data-role="page" >
+  <header data-role="header" class="center-text"> 
+    <a href="#doctores" id="doctores-btn" data-transition="flow">< Doctores</a>
+    <p>Perfil</p>
+  </header>
+  
+  <div class="perfil-doctor"> 
+    <img src="imgs/pics/romero.jpg" alt="Dr. Juan Romero">
+    <h1>Pediatra</h1>
+    <h2>Dr. Juan <span>Romero</span></h2>
+    <div class="bar-msg">
+      <div class="btn-msg"></div>
+    </div>
+  </div>
+  
+  <div class="lista-horarios">
+    <ul>
+      <li>
+        <h2 class="dia">Lunes</h2>
+        <p class="horario">09:30 AM</p>
+        <p class="consultorio">Consultorio 42</p>
+      </li>
+      <li>
+        <h2 class="dia">Martes</h2>
+        <p class="horario">09:30 AM</p>
+        <p class="consultorio">Consultorio 42</p>
+      </li>
+      <li>
+        <h2 class="dia">Miercoles</h2>
+        <p class="horario">10:30 AM</p>
+        <p class="consultorio">Consultorio 42</p>
+      </li>
+    </ul>
+  </div>
+  
+</div>
+
+
+<!-- PERFIL: Juan Romero !-->
+
+
+<!-- PERFIL: Alcira Muñiz !-->
+
+<div id="alcira-muniz" data-role="page" >
+  <header data-role="header" class="center-text"> 
+    <a href="#doctores" id="doctores-btn" data-transition="flow">< Doctores</a>
+    <p>Perfil</p>
+  </header>
+  
+  <div class="perfil-doctor"> 
+    <img src="imgs/pics/muniz.jpg" alt="Dra. Alica Muñiz">
+    <h1>Pediatra</h1>
+    <h2>Dra. Alcira <span>Mu&ntilde;iz</span></h2>
+    <div class="bar-msg">
+      <div class="btn-msg"></div>
+    </div>
+  </div>
+  
+  <div class="lista-horarios">
+    <ul>
+      <li>
+        <h2 class="dia">Martes</h2>
+        <p class="horario">09:00 AM</p>
+        <p class="consultorio">Consultorio 12</p>
+      </li>
+      <li>
+        <h2 class="dia">Jueves</h2>
+        <p class="horario">11:30 AM</p>
+        <p class="consultorio">Consultorio 12</p>
+      </li>
+      <li>
+        <h2 class="dia">Viernes</h2>
+        <p class="horario">10:30 AM</p>
+        <p class="consultorio">Consultorio 10</p>
+      </li>
+    </ul>
+  </div>
+  
+</div>
+
+<!-- PERFIL: Alcira Muñiz !-->
+
+<!-- PERFIL: Carlos Guiterrez !-->
+
+<div id="carlos-guiterrez" data-role="page" >
+  <header data-role="header" class="center-text"> 
+    <a href="#doctores" id="doctores-btn" data-transition="flow">< Doctores</a>
+    <p>Perfil</p>
+  </header>
+  
+  <div class="perfil-doctor"> <img src="imgs/pics/guiterrez.jpg" alt="Dr. Carlos Guiterrez">
+    <h1>Pediatra</h1>
+    <h2>Dr. Carlos <span>Guiterrez</span></h2>
+    <div class="bar-msg">
+      <div class="btn-msg"></div>
+    </div>
+  </div>
+  
+  <div class="lista-horarios">
+    <ul>
+      <li>
+        <h2 class="dia">Martes</h2>
+        <p class="horario">09:00 AM</p>
+        <p class="consultorio">Consultorio 20</p>
+      </li>
+      <li>
+        <h2 class="dia">Miercoles</h2>
+        <p class="horario">11:30 AM</p>
+        <p class="consultorio">Consultorio 21</p>
+      </li>
+      <li>
+        <h2 class="dia">Jueves</h2>
+        <p class="horario">10:30 AM</p>
+        <p class="consultorio">Consultorio 20</p>
+      </li>
+    </ul>
+  </div>
+  
+</div>
+
+<!-- PERFIL: Carlos Guiterrez !-->
+
+<!-- PERFIL: Maria Lopez !-->
+
+<div id="maria-lopez" data-role="page" >
+  <header data-role="header" class="center-text"> 
+    <a href="#doctores" id="doctores-btn" data-transition="flow">< Doctores</a>
+    <p>Perfil</p>
+  </header>
+  
+  <div class="perfil-doctor"> 
+    <img src="imgs/pics/lopez.jpg" alt="Dra. Maria Lopez">
+    <h1>Dermatologa</h1>
+    <h2>Dra. Maria <span>L&oacute;pez</span></h2>
+    <div class="bar-msg">
+      <div class="btn-msg"></div>
+    </div>
+  </div>
+  
+  <div class="lista-horarios">
+    <ul>
+      <li>
+        <h2 class="dia">Martes</h2>
+        <p class="horario">09:00 AM</p>
+        <p class="consultorio">Consultorio 20</p>
+      </li>
+      <li>
+        <h2 class="dia">Miercoles</h2>
+        <p class="horario">11:30 AM</p>
+        <p class="consultorio">Consultorio 21</p>
+      </li>
+      <li>
+        <h2 class="dia">Jueves</h2>
+        <p class="horario">10:30 AM</p>
+        <p class="consultorio">Consultorio 20</p>
+      </li>
+    </ul>
+  </div>
+  
+</div>
+
+<!-- PERFIL: Maria Lopez !-->
+
+<!-- PERFIL: Alejandro Capdevila !-->
+
+<div id="alejandro-capdevila" data-role="page" >
+  <header data-role="header" class="center-text"> 
+    <a href="#doctores" id="doctores-btn" data-transition="flow">< Doctores</a>
+    <p>Perfil</p>
+  </header>
+  
+  <div class="perfil-doctor"> 
+     <img src="imgs/pics/capdevilla.jpg" alt="Dr. Alejandro Capdevila">
+    <h1>Dermatologo</h1>
+    <h2>Dr. Alejandro <span>Capdevila</span></h2>
+    <div class="bar-msg">
+      <div class="btn-msg"></div>
+    </div>
+  </div>
+  
+  <div class="lista-horarios">
+    <ul>
+      <li>
+        <h2 class="dia">Lunes</h2>
+        <p class="horario">09:30 AM</p>
+        <p class="consultorio">Consultorio 22</p>
+      </li>
+      <li>
+        <h2 class="dia">Martes</h2>
+        <p class="horario">09:30 AM</p>
+        <p class="consultorio">Consultorio 22</p>
+      </li>
+      <li>
+        <h2 class="dia">Miercoles</h2>
+        <p class="horario">10:30 AM</p>
+        <p class="consultorio">Consultorio 22</p>
+      </li>
+    </ul>
+  </div>
+  
+</div>
+<!-- PERFIL: Alejandro Capdevila !-->
+
+<!-- PERFIL: Jorge Ortiz !-->
+
+<div id="jorge-ortiz" data-role="page" >
+  <header data-role="header" class="center-text"> 
+    <a href="#doctores" id="doctores-btn" data-transition="flow">< Doctores</a>
+    <p>Perfil</p>
+  </header>
+  
+  <div class="perfil-doctor"> <img src="imgs/pics/ortiz.jpg" alt="Dr. Jorge Ortiz">
+    <h1>Dermatologo</h1>
+    <h2>Dr. Jorge <span>Ortiz</span></h2>
+    <div class="bar-msg">
+      <div class="btn-msg"></div>
+    </div>
+  </div>
+  
+  <div class="lista-horarios">
+    <ul>
+      <li>
+        <h2 class="dia">Miercoles</h2>
+        <p class="horario">09:30 AM</p>
+        <p class="consultorio">Consultorio 20</p>
+      </li>
+      <li>
+        <h2 class="dia">Jueves</h2>
+        <p class="horario">09:30 AM</p>
+        <p class="consultorio">Consultorio 25</p>
+      </li>
+      <li>
+        <h2 class="dia">Viernes</h2>
+        <p class="horario">11:30 AM</p>
+        <p class="consultorio">Consultorio 26</p>
+      </li>
+    </ul>
+  </div>
+  
+</div>
+
+<!-- PERFIL: Jorge Ortiz !-->
+
+<!-- PERFIL: Gustavo Falco !-->
+
+<div id="gustavo-falco" data-role="page" >
+  <header data-role="header" class="center-text"> 
+  <a href="#doctores" id="doctores-btn" data-transition="flow">< Doctores</a>
+    <p>Perfil</p>
+  </header>
+  
+  <div class="perfil-doctor"> 
+    <img src="imgs/pics/falco.jpg" alt="Dr. Gustavo Falco">
+    <h1>Dermatologo</h1>
+    <h2>Dr. Gustavo <span>Falco</span></h2>
+    <div class="bar-msg">
+      <div class="btn-msg"></div>
+    </div>
+  </div>
+  
+  <div class="lista-horarios">
+    <ul>
+      <li>
+        <h2 class="dia">Lunes</h2>
+        <p class="horario">09:30 AM</p>
+        <p class="consultorio">Consultorio 26</p>
+      </li>
+      <li>
+        <h2 class="dia">Miercole</h2>
+        <p class="horario">09:30 AM</p>
+        <p class="consultorio">Consultorio 22</p>
+      </li>
+      <li>
+        <h2 class="dia">Viernes</h2>
+        <p class="horario">11:30 AM</p>
+        <p class="consultorio">Consultorio 20</p>
+      </li>
+    </ul>
+  </div>
+  
+</div>
+
+<!-- PERFIL: Gustavo Falco !-->
+
+
+</body>
+</html>

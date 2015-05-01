@@ -1,0 +1,402 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body,h1,h2,h3,h4,h5,h6,ul,p{
+	padding:0 !important;
+	margin:0 !important;
+	border:0 !important;
+}
+
+* {
+margin: 0;
+padding: 0;
+text-shadow: 0 0 #000!important;
+}
+
+
+
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	
+
+}
+
+
+
+
+header{
+	background-color:#fe0000 !important;
+	color:#FFF !important;
+	height:60px !important;
+	margin:0 !important;
+	padding:0 !important;
+	border-bottom:1px #840000 solid !important;
+}
+
+
+
+
+header p{
+	font-size:20px;
+	font-weight:300 !important;
+	text-shadow: 0 0 #000 !important;
+	letter-spacing:1px;
+	overflow:hidden;
+	padding-top:2px !important;
+}
+
+
+
+.center-text p{
+	text-align:center;
+	padding-top:20px !important;
+}
+
+
+.logo-header{
+	width:215px;
+	margin:0 auto;
+	margin-top:18px;
+}
+
+#img-logo{
+	background-image:url(imgs/icons/logomin.png);
+	width:28px;	
+	height:31px;
+	float:left;
+	margin-right:10px;
+}
+
+
+/* INICIO */
+
+#call-emergency {
+	width:100%;
+	background-color:#c20102 !important;
+	box-shadow: 0px 2px 0px #8c1c1b;
+	border:0;
+}
+
+#call-emergency a{
+	
+	
+	color:#FFF !important;
+	font-size:14px;
+	font-weight:300 !important;
+	background-color:#c20102 !important;
+	border:0;
+	text-shadow: 0 0 #000!important;
+	
+	
+	font-family: 'Source Sans Pro', sans-serif;
+	text-decoration:none;
+
+	margin:0 !important;
+	padding:0 !important;
+	height:27px;
+	padding-top:10px !important;
+	
+
+}
+
+
+#call-container{
+	width:220px;
+	margin:0 auto;
+}
+
+#img-call{
+	background-image:url(imgs/icons/callmin.png);
+	width:23px;	
+	height:23px;
+	float:left;
+	margin-top:7px;
+}
+
+
+
+
+
+#turnos:after { 
+background:  url("imgs/icons/turnos.png")  50% 50% no-repeat;  
+background-size: 50px 50px;
+width:50px;
+height:50px;
+padding-top:130px;
+
+
+position:relative;
+left:48%;
+top:-145px;
+
+}
+
+#doctores:after { 
+background:  url("imgs/icons/doctores.png") 50% 50% no-repeat; 
+background-size: 50px 50px;
+width:50px;
+height:50px;
+padding-top:130px;
+position:relative;
+left:48%;
+top:-145px;
+}
+
+#como-llegar:after { 
+background:  url("imgs/icons/como-llegar.png") 50% 50% no-repeat;  
+background-size: 50px 50px;
+width:50px;
+height:50px;
+padding-top:130px;
+position:relative;
+left:48%;
+top:-145px;
+}
+
+#ubicarse:after { 
+background:  url("imgs/icons/ubicarse.png") 50% 50% no-repeat;  
+background-size: 50px 50px;
+width:50px;
+height:50px;
+padding-top:130px;
+position:relative;
+left:48%;
+top:-145px;
+}
+
+
+
+#menu-hospital{
+	margin-top:4px;	
+}
+
+
+#menu-hospital ul li{
+	
+	width:49.5% !important;
+	height:230px !important;
+	overflow:hidden;
+	box-shadow: 0px 4px 0px #1093bd;
+}
+
+#menu-hospital ul li a{
+	display:block;
+	height:100% !important;
+	background-color:#1ac1f6 !important;
+	color:#fff !important;
+	font-size:20px !important;
+	font-weight:400 !important;
+	
+	text-shadow: 0 0 #000!important;
+	overflow:hidden;
+	
+    font-family: 'Source Sans Pro', sans-serif !important;
+	text-decoration:none;
+}
+
+
+
+#menu-hospital ul li{
+	background-color:#1ac1f6 !important;
+	margin-bottom:7px;
+	float:left;
+	margin-right:1%;
+}
+
+#menu-hospital ul li a{
+	padding-top:130px;
+}
+
+#menu-hospital .btn-der{
+	margin-right:0;
+}
+
+
+
+/* INICIO */
+
+
+/* DOCTORES */
+
+
+#inicio-btn{
+	background-color:#fe0000 !important;
+	margin-top:10px;
+	border:0;
+	box-shadow:0 !important;
+	color:#FFF !important;
+	text-shadow: 0 0 #000!important;
+}
+
+
+
+.title-doctors{
+	background-color:#1ac1f6 !important;
+	height:30px !important;
+	padding:5px !important;
+	padding-top:10px !important;
+}
+
+.title-doctors h1{
+	color:#fff !important;
+	font-size:20px !important;
+	font-weight:600 !important;
+	text-shadow: 0 0 #000!important;
+	text-align:center;
+	
+}
+
+#doctores ul li{
+	list-style:none;
+	height:50px;
+	display:block;
+	margin-bottom:1px;
+	cursor:pointer;
+	border-bottom:1px #CCC solid;
+}
+
+
+#doctores ul{
+	background-color:#FFF !important;	
+}
+
+
+#doctores ul li a{
+	text-decoration:none;
+	
+    color:#000 !important;
+	font-size:16px !important;
+	font-weight:100 !important;
+	
+	text-shadow: 0 0 #000!important;
+}
+
+#doctores ul li a p{
+	padding-top:10px !important;
+	padding-left:20px !important;
+}
+
+#doctores ul li a p span{
+	font-weight:400 !important;
+}
+
+#doctores ul li a img{
+	float:left;
+	width:50px;
+	height:50px;
+	border-right:1px #CCC solid;
+	margin-right:10px;
+}
+
+/* DOCTORES */
+
+/* PERFIL DOCTORES */
+
+#doctores-btn{
+	background-color:#fe0000 !important;
+	margin-top:10px;
+	border:0;
+	box-shadow:0 !important;
+	color:#FFF !important;
+}
+
+.perfil-doctor{
+	background-color:#1ac1f6;
+	height:130px;
+	padding-top:20px;
+}
+
+.perfil-doctor img{
+	border:3px #117090 solid;
+	float:left;
+	margin:0 10px;
+	position:relative;
+	top:8px;
+	
+}
+
+.perfil-doctor h1{
+	color:#fff !important;
+	font-size:29px !important;
+	font-weight:600 !important;
+	text-shadow: 0 0 #000!important;	
+}
+
+.perfil-doctor h2{
+	color:#fff !important;
+	font-size:20px !important;
+	font-weight:400 !important;
+	text-shadow: 0 0 #000!important;	
+}
+
+.perfil-doctor h2 span{
+	font-weight:600 !important;
+}
+
+.bar-msg{
+	background-color:#117090;
+	height:38px;
+	margin-top:28px;
+	
+}
+
+.btn-msg{
+	background-color:#2ae742;
+	height:40px;
+	width:40px;
+	border:3px #117090 solid;
+	border-radius: 25px;
+	position:relative;
+	left:110px;
+	bottom:20px;
+	background-image:url(imgs/icons/mail.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	cursor:pointer;
+}
+
+
+.lista-horarios .dia{
+	background-color:#e2e2e2;
+	text-align:center;
+	padding:8px;
+	height:35px;
+	padding-top:10px !important;
+	color:#7d7b7c;
+	font-size:20px;
+	font-weight:300;
+}
+
+.lista-horarios .horario{
+	background-color:#1ac1f6;
+	float:left;
+	height:50px;
+	width:20%;
+	text-align:center;
+	color:#fdfdff;
+	font-size:18px;
+	font-weight:600;
+	padding-top:30px !important;
+	overflow:hidden;
+}
+
+.lista-horarios .consultorio{
+	background-color:#fff;
+	height:50px;
+	width:80%;
+	text-align:center;
+	color:#525252;
+	font-size:20px;
+	font-weight:600;
+	padding-top:30px !important;
+	overflow:hidden;
+}
+
+/* PERFIL DOCTORES */
+
+
+.ui-shadow {
+	box-shadow:none;	
+}
